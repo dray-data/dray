@@ -1,4 +1,6 @@
 # dray
+[![npm](https://img.shields.io/npm/v/dray.svg)](https://www.npmjs.com/dray)
+
 Node SQL ORM written in TypeScript - let the squirrels deal with your data!
 
 ## Goals
