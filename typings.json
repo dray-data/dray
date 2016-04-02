@@ -1,0 +1,5 @@
+{
+  "ambientDependencies": {
+    "mssql": "registry:dt/mssql#2.2.0+20160316155526"
+  }
+}
