@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/dray-data/dray/issues"
   },
-  "homepage": "https://github.com/dray-data/dray#readme"
+  "homepage": "https://github.com/dray-data/dray#readme",
+  "dependencies": {
+    "mssql": "^3.1.2"
+  }
 }
