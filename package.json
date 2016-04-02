@@ -1,0 +1,35 @@
+{
+  "name": "dray",
+  "version": "0.0.0-POC.0",
+  "description": "Node SQL ORM written in TypeScript",
+  "main": "dray.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dray-data/dray.git"
+  },
+  "keywords": [
+    "dray",
+    "orm",
+    "sql",
+    "sql",
+    "orm",
+    "azure",
+    "sql",
+    "mssql",
+    "data",
+    "node",
+    "nodejs",
+    "typescript",
+    "typescript orm",
+    "typescript sql"
+  ],
+  "author": "James Richford <=> (=)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dray-data/dray/issues"
+  },
+  "homepage": "https://github.com/dray-data/dray#readme"
+}
