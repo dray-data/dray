@@ -31,7 +31,8 @@
   },
   "homepage": "https://github.com/dray-data/dray#readme",
   "dependencies": {
-    "mssql": "^3.1.2"
+    "mssql": "^3.1.2",
+    "reflect-metadata": "^0.1.3"
   },
   "devDependencies": {
     "typings": "^0.7.11"

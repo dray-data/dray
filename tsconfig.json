@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "exclude": [
+        "**/*.d.ts",
+        "./node_modules/**/*.*"
+    ],
+    "filesGlob": [
+        "./proof-of-concept/**/*.ts",
+        "./typings/main.d.ts"
+    ],
+    "files": [
+        "./proof-of-concept/db-column.ts",
+        "./proof-of-concept/db-table.ts",
+        "./proof-of-concept/dray-test.ts",
+        "./proof-of-concept/repository.ts",
+        "./proof-of-concept/squirrel-model.ts",
+        "./typings/main.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
