@@ -1,5 +1,9 @@
 {
-  "ambientDependencies": {
-    "mssql": "registry:dt/mssql#2.2.0+20160316155526"
+  "globalDependencies": {
+    "es2015-promise": "registry:env/es2015-promise#1.0.0+20160526151700",
+    "node": "registry:dt/node#6.0.0+20160818175514"
+  },
+  "dependencies": {
+    "mssql": "registry:npm/mssql#3.3.0+20160526152843"
   }
 }

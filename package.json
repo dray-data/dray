@@ -4,7 +4,7 @@
   "description": "Node SQL ORM written in TypeScript",
   "main": "dray.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "alsatian ./test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "reflect-metadata": "^0.1.3"
   },
   "devDependencies": {
-    "typings": "^0.7.11"
+    "alsatian": "^1.0.0-alpha.10",
+    "typings": "^1.3.2"
   }
 }

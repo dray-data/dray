@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
+        "moduleResolution": "node",
         "noImplicitAny": true,
         "sourceMap": true,
         "preserveConstEnums": true,
@@ -16,7 +17,8 @@
     ],
     "filesGlob": [
         "./proof-of-concept/**/*.ts",
-        "./typings/main.d.ts"
+        "./test/**/*.ts",
+        "./typings/index.d.ts"
     ],
     "files": [
         "./proof-of-concept/db-column.ts",
@@ -24,7 +26,7 @@
         "./proof-of-concept/dray-test.ts",
         "./proof-of-concept/repository.ts",
         "./proof-of-concept/squirrel-model.ts",
-        "./typings/main.d.ts"
+        "./test/unit-tests/decorators/db-column.spec.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
